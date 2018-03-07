@@ -1,0 +1,42 @@
+{
+  "name": "weibo",
+  "version": "1.0.0",
+  "description": "新浪微博",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html -p 8080",
+    "server": "node server",
+    "start": "parallelshell 'npm run dev' 'npm run server'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whudongyang/weibo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/whudongyang/weibo/issues"
+  },
+  "homepage": "https://github.com/whudongyang/weibo#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "koa": "^2.5.0",
+    "koa-router": "^7.4.0",
+    "lodash": "^4.17.5",
+    "moment": "^2.21.0",
+    "qs": "^6.5.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^8.1.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "parallelshell": "^3.0.2",
+    "parcel-bundler": "^1.6.2",
+    "postcss-modules": "^1.1.0"
+  }
+}
