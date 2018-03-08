@@ -1,3 +1,33 @@
+.status_item {
+    margin-top: .4rem;
+    padding-left: 1rem;
+    padding-right: .2rem;
+}
+.desc {
+    display: flex;
+    margin-left: -.8rem;
+    line-height: 1;
+}
 .avatar {
     border-radius: 50%;
+    width: .8rem;
+    height: .8rem;
+    margin-right: .2rem;
+}
+
+.user_info strong {
+    font-size: .34rem;
+    color: #494949;
+}
+
+.timestamp {
+    display: block;
+    font-size: .24rem;
+    color: #aaa;
+    margin-top: .12rem;
+}
+
+.content {
+    margin-top: .1rem;
+    font-size: .30rem;
 }
